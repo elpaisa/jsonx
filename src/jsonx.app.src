@@ -1,0 +1,26 @@
+{application, jsonx,
+[
+    {description, "a streaming, evented json parsing toolkit"},
+    {vsn, "2.8.2"},
+    {modules, [
+        jsonx,
+        jsonx_encoder,
+        jsonx_decoder,
+        jsonx_parser,
+        jsonx_to_json,
+        jsonx_to_term,
+        jsonx_config,
+        jsonx_verify
+    ]},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {env, []},
+    {files, [
+      "src",
+      "rebar.config", "rebar.config.script", "rebar.lock"
+      "README.md", "CHANGES.md", "LICENSE"
+    ]}
+]}.
