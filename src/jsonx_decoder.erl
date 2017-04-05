@@ -68,7 +68,7 @@ resume(Rest, State, Handler, Acc, Stack, Config) ->
     end.
 
 
--include("jsx_config.hrl").
+-include("jsonx_config.hrl").
 
 
 %% whitespace

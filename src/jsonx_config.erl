@@ -31,7 +31,7 @@
 -export([fake_error_handler/3]).
 -endif.
 
--include("jsx_config.hrl").
+-include("jsonx_config.hrl").
 
 -type handler_type(Handler) ::
     fun((jsonx:json_text() | end_stream |

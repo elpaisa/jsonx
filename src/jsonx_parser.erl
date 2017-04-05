@@ -53,7 +53,7 @@ resume(Rest, State, Handler, Stack, Config) ->
     end.
 
 
--include("jsx_config.hrl").
+-include("jsonx_config.hrl").
 
 
 %% error, incomplete and event macros

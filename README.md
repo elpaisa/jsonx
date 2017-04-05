@@ -299,11 +299,11 @@ argument `end_stream` (or `end_json`) like:
 
 ```erlang
 1> {incomplete, F} = jsonx:decode(<<"[">>, [stream]).
-{incomplete,#Fun<jsx_decoder.1.122947756>}
+{incomplete,#Fun<jsonx_decoder.1.122947756>}
 2> F(end_stream).  % can also be `F(end_json)`
 ** exception error: bad argument
 3> {incomplete, G} = F(<<"]">>).
-{incomplete,#Fun<jsx_decoder.1.122947756>}
+{incomplete,#Fun<jsonx_decoder.1.122947756>}
 4> G(end_stream).  % can also be `G(end_json)`
 []
 ```

@@ -215,7 +215,7 @@ test_cases() ->
     ++ floats()
     ++ compound_object().
 
-%% segregate these so we can skip them in `jsx_to_term`
+%% segregate these so we can skip them in `jsonx_to_term`
 special_test_cases() -> special_objects() ++ special_array().
 
 
